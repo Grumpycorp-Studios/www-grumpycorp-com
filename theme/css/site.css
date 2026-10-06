@@ -58,6 +58,11 @@
     padding-inline-start: 40px;
   }
 
+  .content th,
+  .content td {
+    padding: 0.25rem 0.75rem;
+  }
+
   /* Other basic element settings */
   img {
     /* 
