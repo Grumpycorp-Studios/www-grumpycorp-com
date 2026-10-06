@@ -47,13 +47,13 @@ Teradek transmitter (12G-SDI/4K image), Teradek RT FIZ and TOF-1, ARRI LMB 4x5.6
 
 Nucleus-M FIZ system (three motors) also included in the coffin, just in case.
 
-## C-CAM :notOnTruck{className="size-6"}</span>
+## C-CAM :notOnTruck{className="size-6"}
 
 ::figure[BMPCC 6K (C-CAM)]{src="grip-truck/C-CAM.jpg" class="dn-p"}
 
 BMPCC 6K converted to PL mount, rigged with V-mount battery, Teradek transmitter (3G-SDI/HD image), Lemo 0B.2-based power distro, Cleans Camera MiniQRB plate, dinky SmallRig matte box
 
-## D-CAM :notOnTruck{className="size-6"}</span>
+## D-CAM :notOnTruck{className="size-6"}
 
 BMPCC 4K with Wooden Camera EF mount adapter. Available with V-mount battery and Teradek transmitter (3G-SDI/HD image) or de-rigged for small quarters shooting.
 
@@ -521,3 +521,69 @@ See [DMX case](/posts/film-making/dmx-case/index.html) for details.
 
 - 10’x10’ black video village tent with side walls and door :notOnTruck
 - Cassette toilet for remote location support :notOnTruck
+
+# Rigging :notOnTruck{className="size-6"}
+
+(Obviously not on the truck because it wouldn't even fit)
+
+## XSF 12x12 Aluminum Box Truss
+
+- 3x 10’ sticks
+- 14x 8’ sticks
+- 7x 5’ sticks
+- 4x 2’ sticks
+- 8x 1’ corner block (XSF X12CB5.00)
+- 6x 1’ 6-way corner block (XSF X-PLCB6)
+- 6x XSF 36”x36” aluminum base plate with hardware
+- 8x XSF truss pick rig point (pinch block): WLL 1 ton per pick point using the center eye bolt
+  ([XSF specifications](https://www.xsftruss.com/pinch-block-with-rig-point/))
+
+### Allowable loads
+
+[XSF load table for 12”x12” Protective Bolt Plate Utility Truss](https://www.xsftruss.com/box-truss/#12x12):
+
+| Span (ft) | UDL (lb/ft) | CPL (lb) | 3PL (lb each) | 4PL (lb each) |
+| --------: | ----------: | -------: | ------------: | ------------: |
+|        10 |         759 |    4,610 |         3,455 |         2,300 |
+|        20 |         225 |    2,250 |         1,690 |         1,125 |
+|        30 |          96 |    1,450 |         1,085 |           725 |
+|        40 |          44 |    1,030 |           625 |           450 |
+|        50 |          19 |      590 |           340 |           250 |
+
+UDL is uniformly distributed along the span; CPL is a single load at the center. 3PL is the load at each of two third points
+(⅓ and ⅔ of the span); 4PL is the load at each of three quarter points (¼, ½, and ¾ of the span).
+
+Per [XSF’s load table guide](https://www.xsftruss.com/load-table-and-ratings-guide/), truss self-weight is already accounted
+for. Point loads must be applied at panel points. Dynamic, shock, wind, seismic, snow, and ice loads are excluded.
+
+## Beam clamps
+
+- 2x JET HD-2T wide beam clamp (202720), for 3” to 8⅔” beam flanges: WLL 4,400 lb per clamp
+  ([JET specifications](https://www.jettools.com/hd-2t-2-ton-wide-beam-clamp)).
+  Vertical lifts only ([JET manual](https://www.elitemetaltools.com/sites/default/files/product-data/manuals/202710_man_EN.pdf)).
+
+## Slings
+
+- 4x Lift-All Steelflex round sling, 4’
+- 4x Lift-All Steelflex round sling, 6’
+
+Rated capacity per sling (both lengths): 5,300 lb vertical, 4,200 lb choker, 10,600 lb basket ([Lift-All specifications](https://lift-all.com/product-files/catalog/SteelFlex%20Roundslings.pdf)).
+
+Lift-All specifies a minimum connection hardware diameter of ⅝” (0.625”) for both lengths. For round hardware, this
+corresponds to a minimum bearing surface radius of 5/16” (0.3125”), calculated as half the diameter.
+
+## Shackles
+
+Working load limits (WLL) per shackle for in-line loading ([CM specifications](https://www.cmco.com/globalassets/pdfs/rg3415_-rigging-product-catalog-web.pdf)):
+
+- 9x CM ⅝” black theatrical screw-pin anchor shackle: WLL 9,000 lb (4.5 US tons)
+- 10x CM 5/16” black theatrical screw-pin anchor shackle: WLL 2,000 lb (1 US ton)
+- 8x CM ¼” carbon steel screw-pin shackle: WLL 1,500 lb (¾ US ton)
+
+## Chain stock
+
+Working load limits for straight pulls ([CM specifications](https://www.cmco.com/globalassets/industries/energy--utilities-and-power-generation/cmco-utility-products-catalog.pdf), [Peerless specifications](https://peerlesschain.com/entertainment-chain/trac-chain-tagged-assemblies)):
+
+- 75’ CM 9/32” Grade 100 alloy chain: WLL 4,300 lb
+- 1x 3' Peerless ½” TRAC Grade 80 theatrical rigging chain: WLL 12,000 lb
+- 1x 6' Peerless ½” TRAC Grade 80 theatrical rigging chain: WLL 12,000 lb
